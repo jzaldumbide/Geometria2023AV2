@@ -28,19 +28,23 @@ public class figuras2D {
 
 
     public int getnLados() {
+
         return nLados;
     }
 
     public void setnLados(int nLados) {
+
         this.nLados = nLados;
     }
 
 
     public float areaCuadrado(int lado){
-    return this.lado*this.lado;
+
+        return this.lado*this.lado;
     };
-    private float perimetroCuadrado(){
-return 0;
+    public float perimetroCuadrado(){
+
+        return this.lado*4;
     };
 
     private float areaTriangulo(){
@@ -48,7 +52,7 @@ return 0;
 
     };
     private float perimetroTriangulo(){
-        return 0;
+        return this.lado*3;
 
     };
 }

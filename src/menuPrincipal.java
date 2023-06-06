@@ -4,5 +4,8 @@ public class menuPrincipal {
         miFigura.setLado(3);
 
         System.out.println(miFigura.areaCuadrado(7));
+        System.out.println(miFigura.perimetroCuadrado());
+
     }
+
 }
